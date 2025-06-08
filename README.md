@@ -29,3 +29,8 @@ terraform output cluster_name
 terraform output cluster_endpoint
 terraform output kubeconfig_certificate_authority_data
 ```
+//
+```
+aws sts get-caller-identity
+
+```
