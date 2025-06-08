@@ -22,3 +22,10 @@ aws eks update-kubeconfig --region us-east-1 --name my-eks-cluster
 ```
 kubectl get nodes
 ```
+// terraform output 
+```
+terraform output 
+terraform output cluster_name
+terraform output cluster_endpoint
+terraform output kubeconfig_certificate_authority_data
+```
